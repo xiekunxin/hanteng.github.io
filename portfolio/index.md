@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "学生作品集"
+title: "我的作品集"
 date: 2017-12-30T11:40:45-04:00
 modified:
-excerpt: "展示学生作品集，好的丶可改进的及有趣的"
+excerpt: 好的丶可改进的及有趣的"
 tags: []
 image: 
   feature: Portfolio.svg
