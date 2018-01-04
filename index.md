@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "最新文章"
+title: "学海无涯"
 ---
 
 <div class="tiles">

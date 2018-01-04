@@ -2,12 +2,12 @@
 
 - title: 学习笔记
   url: /teaching/
-  excerpt: "含体验式教学及混合式教学"
+  excerpt: "网页设计与制作，可视化作品”
   image: learning_teaching.gif
 
-- title: 学生作品集
+- title: 我的作品
   url: /portfolio/
-  excerpt: "在此展示学生作品集，好的丶可改进的及有趣的"
+  excerpt: "通宵键盘上的噼里啪啦"
   image: Portfolio.svg
 
 - title: i18nl10n
