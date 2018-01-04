@@ -1,18 +1,18 @@
 # Site navigation links
 
-- title: 学习笔记
+- title: 教学
   url: /teaching/
-  excerpt: "网页设计与制作，可视化作品”
+  excerpt: "含体验式教学及混合式教学"
   image: learning_teaching.gif
 
-- title: 我的作品
+- title: 学生作品集
   url: /portfolio/
-  excerpt: "通宵键盘上的噼里啪啦"
+  excerpt: "在此展示学生作品集，好的丶可改进的及有趣的"
   image: Portfolio.svg
 
 - title: i18nl10n
   url: /i18nl10n/
-  excerpt: "含＂一带＂倡议"
+  excerpt: "含＂一带一路＂倡议"
   image: Tower_of_Babel.jpg
 
 - title: SDG
