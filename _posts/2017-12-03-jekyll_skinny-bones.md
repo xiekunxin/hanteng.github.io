@@ -1,62 +1,72 @@
 ---
 layout: article
-title:  "装Jekyll主题Skinny Bones"
+title:  "我对于html的思考"
 date:   2017-12-03 08:45:50 +0800
 categories: notes_tech Jekyll
 image:
   teaser: Jekyll_skinny_bones.jpg
   feature: Jekyll_skinny_bones.jpg
 ---
-Jekyll 有不少第三方开发的主题可以用，这篇文章简介[Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll)。
+## 1.html究竟是什么？
 
-{% include toc.html %}
+从字面上理解，html是超文本标记语言hyper text mark-up language的首字母缩写，指的是一种通用web页面描述语言，是用来描述我们打开浏览器就能看到的各种web页面的。
 
-## 为何选 Skinny Bones
+所以说，写html代码根本和 编程都扯不上边，不要一听源码两个字就绝望，以为要你攻读计算机学位似的。
 
-Jekyll 有不少第三方开发的主题可以用，功能简单的到齐全的都有，这篇文章简单介绍一个难易适中的主题[Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll)做个起头。
+你只要知道当你要在网页中展示内容的时候该用哪个标记就可以了。
 
-之所以采用Michael Rose所设计的主题样式理由不少，其中包括他所有的样式都可以在[Github](https://github.com/)使用，他设计的这些作品多以开源MIT授权释出，所以若觉得好用，可以[在此鼓励他](https://mademistakes.com/support/)
+即使一开始记不 住，也没关系，查课本，问度娘，分分钟搞定，用过几次，想记不住都难。
 
-设计师Michael Rose[他自己总结Skinny Bones 主题的特点](https://mademistakes.com/work/skinny-bones-jekyll/)有
+最近风靡各大博客和写作平台的markdown大家知道吧，html比它复杂不了多少。
 
-- 兼容 GitHub Pages 页面  <br/> GitHub Pages compatible.
-- 使用 "Sass" 构建的样式表可以轻松地帮助您的网站主题。需要Jekyll 2.x。<br/> Stylesheets built using Sass to help theme your site with ease. Requires Jekyll 2.x
-- 使用数据文件, 便于自定义站点导航/页脚和支持多个作者。<br/> Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-- 含可选功能如 Disqus 评论, 目录, 社会共享链接, 和谷歌 AdSense 广告。<br/> Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+目前最新版本是html5，比之前的版本有了质的飞跃，被新媒体领域寄予了厚望，特别是在移动端的应用，进行的如火如荼。
 
-## 如何用 Skinny Bones
+关于html5，可以另外开个话题来讲。今天不再多说。
 
-Skinny Bones 的主题官网在Github Page上[mmistakes.github.io/skinny-bones-jekyll](https://mmistakes.github.io/skinny-bones-jekyll/getting-started/),有两种安装方式，一种是全新安装，另一种是对已有的Jekyll进行换主题的安装教程。
+## 2.html文档基本结构
 
+首先需要明确一个概念，html文档是由元素组成的。基础文档元素有4个，任何HTML文档都需要所有这些元素。
 由於我打算就是要在Github 的个人页面使用重建一个新的Jekyll个人站点，我直接采取安装教程的第一个方案，步骤如下：
+每个html文档都需要以DOCTYPE元素开头，这样的目的是告诉浏览器：“即将要打开的文档类型是html，请按照html解析规则进行处理。
+有的同学会发现，即使不写DOCTYPE元素，大多数浏览器仍然能够正确显示文档的内容。
+但是在这里提醒大家的是，这样做并非明智之举，长期来看，过分依赖浏览器的“善解人意”，会使你在关键时刻抓狂。
+html元素是html文档的根元素，里面包含真正的html内容。
+html元素由head元素和body元素组成。
+head元素中包含文档的元数据等信息，在html5中规定head元素中必须包含一个title元素。
+body元素用于包装要展示在浏览器窗口中的文档内容。
+他们之间的关系可以这样来理解，head元素本身不是文档内容，但是提供了关于后面的包装在body中的文档内容的重要信息。
+对于用户来说，重要的是body元素里面的内容，但是若想要成功展示body元素中的内容，则离不开head元素。
+所以说，当你创建一个下面这样的html文件，实际上就完成了一个web页面的创建。
+但是，当使用浏览器打开这个页面的时候，会发现展示在你面前的是一个空白窗口，那是因为我们并没有往里添加任何实质性的内容。
+就好比我们印刷了一本书，但这本书正文页面全部都是空白一样。但不管怎样说，它仍然是一本书。
+要想设计开发出真正实用的网页，需要添加各种元素。
 
-1. 直接 fork/clone [mmistakes/skinny-bones-jekyll](https://github.com/mmistakes/skinny-bones-jekyll)，这相当於安装教程第一个方案中的第1步
-2. 在自己的项目hanteng/skinny-bones-jekyll改名成hanteng/hanteng.github.io，这相当於安装教程第一个方案中的第2步，并使用Github Desktop 下载至本地端 
-3. 运行捆绑安装```bundle install```, 安装Jekyll和其所依赖的模块。
-4. 更新 项目根目录中yml设定档```_config.yml```内容丶增加导航navigation丶增加文章/页面，如[我这里的编修Commit](https://github.com/hanteng/hanteng.github.io/commit/cf9691a940e8d9527d64553501a90991e9c5f1ab)
+## 3.html标记基本语法
+在《HTML5权威指南》中有这样一句话：“html是一种标记语言。其标记以应用于文档内容（例如文本）的元素为其存在形式”。
 
-若你是第一次使用Jekyll，可以分别在本地和Github远端测试是否能正确运行：
+通俗来讲就是要想让浏览器正确执行你的指令，必须使用标记。这些标记是早就定义好了的，不能自己创造。
 
-## 本地运行测试
-首先要确立你的Github项目在本地的路径，可在Github Desktop 中，先选定该项目，再点选菜单Repository，再点选其中的Show in Explorer，就可以查到你放哪了。
+标记是个什么东东呢？我们上面的代码中就用到了，像 <html>  <head>  <body> 等这些写在尖括号里面的内容统统都是标记。而且绝大多数的标记是成对出现的。
 
-- 使用Ruby命令列，切换至该目录如```cd C:\Users\me\Documents\GitHub\hanteng.github.io```
-- 执行捆绑执行```bundle exec jekyll serve```把jekyll 伺服器执行
+在html文档中一个应用了标记的元素基本语法如下：
 
-执行效果如：
-<pre class="highlight"><code>C:\Users\Hante\Documents\GitHub\hanteng.github.io>bundle exec jekyll serve
-Configuration file: C:/Users/me/Documents/GitHub/hanteng.github.io/_config.yml
-            Source: C:/Users/me/Documents/GitHub/hanteng.github.io
-       Destination: C:/Users/me/Documents/GitHub/hanteng.github.io/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 1.64 seconds.
-  Please add the following to your Gemfile to avoid polling for changes:
-    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'C:/Users/me/Documents/GitHub/hanteng.github.io'
-Configuration file: C:/Users/me/Documents/GitHub/hanteng.github.io/_config.yml
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-</code></pre>
+<标记名称>元素内容</标记名称>
+其中的  <标记名称> 是开始标记， </标记名称> 结束标记， 元素内容 则指的是想要显示在浏览器窗口中的内容。
 
-看到```Server running``` 字样代表运行成功，可以在```Server address```上执行使用，也就是在本地开一个浏览器输入该URL地址（上述為 ```http://127.0.0.1:4000/```）查看站点执行状况。
+那么是不是所有的元素标记都有具有以上三要素呢？
+
+并非如此。
+
+当元素的开始标记和结束标记之间没有内容时，就是一个空元素。
+
+空元素可以用一个更简洁的方式表达出来，就是将开始标记和结束标记合二为一，只用一个标记表示，比如 <标记名称/> 。
+
+另外还有一些特殊的元素，使用一个标签来表示，称为虚元素。比如用于在页面中插入水平线的 <hr> ，就是这样一种元素。
+
+我们称成对出现的标记为双标记，反之则为单标记。
+
+那html有多少标记呢？算上html5新增标记，大约有119个。
+
+而最常用的则要少的多。
+
+根据80/20原则，只要掌握约24（119*20%）个最常用标记，即可以解决80%的问题。
