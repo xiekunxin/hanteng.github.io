@@ -4,7 +4,7 @@ title:  "我对于html的思考"
 date:   2017-12-03 08:45:50 +0800
 categories: notes_tech Jekyll
 image:
-  teaser: Jekyll_skinny_bones.jpg
+  teaser: html.jpg
   feature: Jekyll_skinny_bones.jpg
 ---
 ## 1.html究竟是什么？
