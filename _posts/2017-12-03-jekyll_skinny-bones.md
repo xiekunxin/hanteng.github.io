@@ -7,7 +7,9 @@ image:
   teaser: html.jpeg
   feature: Jekyll_skinny_bones.jpg
 ---
-## 1.html究竟是什么？
+## 1.html是什么？
+   1.html从哪里来？
+   3.html要往哪里去？
 
 从字面上理解，html是超文本标记语言hyper text mark-up language的首字母缩写，指的是一种通用web页面描述语言，是用来描述我们打开浏览器就能看到的各种web页面的。
 所以说，写html代码根本和 编程都扯不上边，不要一听源码两个字就绝望，以为要你攻读计算机学位似的。
