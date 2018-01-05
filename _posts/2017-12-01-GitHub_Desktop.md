@@ -4,8 +4,8 @@ title:  "小组协作"
 date:   2017-12-01 22:07:50 +0800
 categories: notes_tech Jekyll
 image:
-  teaser: radio.gif
-  feature: radio.gif
+  teaser: radio.jpg
+  feature: radio.jpg
 ---
 真正的读书人面对全英书本也不慌，百度在手，翻译就有，分数跑不走
 
