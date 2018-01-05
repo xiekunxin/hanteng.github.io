@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "网页作品集"
+title: "可视化作品集"
 date: 2017-12-30T11:40:45-04:00
-categories.portfolio
+categories.infovis
 modified:
 excerpt: 好的丶可改进的及有趣的"
 tags: []
@@ -13,9 +13,8 @@ image:
 
 揭开宗教场所的神秘面纱
 
-
 <div class="tiles">
-{% for post in site.categories.portfolio %}
+{% for post in site.categories.infovis %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 portfolio 的列出來-->

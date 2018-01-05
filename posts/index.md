@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "网页作品集"
+title: "我的学习历程"
 date: 2017-12-30T11:40:45-04:00
-categories.portfolio
+categories.posts
 modified:
 excerpt: 好的丶可改进的及有趣的"
 tags: []
@@ -12,7 +12,6 @@ image:
 ---
 
 揭开宗教场所的神秘面纱
-
 
 <div class="tiles">
 {% for post in site.categories.portfolio %}

@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "可持续发展目标"
+title: "介绍一下我自己"
 date: 2017-12-30T11:40:45-04:00
+categories.SDG
 modified:
 excerpt: "可持续发展，含＂生态文明＂倡议"
 tags: []
