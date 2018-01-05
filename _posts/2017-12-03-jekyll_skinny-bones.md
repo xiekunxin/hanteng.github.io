@@ -4,13 +4,11 @@ title:  "我对于html的思考"
 date:   2017-12-03 08:45:50 +0800
 categories: notes_tech Jekyll
 image:
-  teaser: timg.jpg
-  feature: Jekyll_skinny_bones.jpg
+  teaser: thinker.jpg
+  feature: thinker.jpg
 ---
 ## 
-   1.html是什么？
-   2.html从哪里来？
-   3.html要往哪里去？
+   html是什么？它从哪里来？要往哪里去？为什么要折磨我？
 
 从字面上理解，html是超文本标记语言hyper text mark-up language的首字母缩写，指的是一种通用web页面描述语言，是用来描述我们打开浏览器就能看到的各种web页面的。
 所以说，写html代码根本和 编程都扯不上边，不要一听源码两个字就绝望，以为要你攻读计算机学位似的。
