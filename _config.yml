@@ -26,13 +26,13 @@ gems:
 
 # Site owner
 owner:
-  name: hanteng
-  email: hantengliao@qq.com
-  twitter: hanteng
+  name: 谢坤鑫
+  email: 1064886418@qq.com
+  twitter: xiekunxin
   google:
     ad-client:
     ad-slot:
-  bio: "谢坤鑫，"
+  bio: "谢坤鑫"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
