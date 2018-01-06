@@ -11,7 +11,7 @@ image:
   teaser:
 ---
 
-揭开宗教场所的神秘面纱
+
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
