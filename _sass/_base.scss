@@ -10,8 +10,8 @@ body {
 	font-family: $base-font;
 	color: $text-color;
     background-image:
-      dark.jpg(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
-      url('../images/oslRB.png');
+      linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
+      url('../images/dark.jpg');
 	@include font-size(16);
 }
 
