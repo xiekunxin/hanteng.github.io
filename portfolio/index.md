@@ -8,14 +8,22 @@ excerpt: 好的丶可改进的及有趣的"
 tags: []
 image: 
   feature: Portfolio.svg
-  teaser:
+  teaser: night.jpg
 ---
 
-揭开宗教场所的神秘面纱
+  
 
 
 <div class="tiles">
-{% for post in site.categories.portfolio %}
-  {% include post-grid.html %}
+<div class="tiles">
+{% for post in site.posts %}
+{{% post.title %}}
+	{% if post.tag contains 'rwd' %}
+	{{% post.title %}}
+		{% for title in post.title %} 
+						{% include post-grid.html %}
+						
+		{% endfor %}
+	{% endif %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 portfolio 的列出來-->
