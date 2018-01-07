@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "小组协作"
+title:  "wsg4翻译"
 date:   2017-12-01 22:07:50 +0800
 categories: portfolio
 image:

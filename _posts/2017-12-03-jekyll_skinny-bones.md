@@ -2,7 +2,7 @@
 layout: article
 title:  "我对于html的思考"
 date:   2017-12-03 08:45:50 +0800
-categories: SDG
+categories: posts
 image:
   teaser: thinker.jpg
   feature: thinker.jpg

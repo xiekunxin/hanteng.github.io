@@ -2,8 +2,7 @@
 layout: article
 title:  "Markdown语法说明"
 date:   2017-12-29 21:45:50 +0800
-categories: Portfolio
-image:
+categories: portfolio
 image:
   teaser: float.jpg 
   feature: float.jpg
