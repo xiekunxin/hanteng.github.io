@@ -10,7 +10,7 @@ image:
   feature: Portfolio.svg
   teaser:
 ---
-<img src="https://xiekunxin.github.io/images/jie.png" alt="teaser" itemprop="image">
+<img src="https://xiekunxin.github.io/images/tu.png" alt="teaser" itemprop="image">
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
