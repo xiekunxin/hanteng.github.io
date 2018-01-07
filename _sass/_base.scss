@@ -360,6 +360,10 @@ input[type="submit"] {
 	white-space: nowrap;
 }
 
+#masthead, nav, button, html [type=button], .menu-screen {
+        display: none;
+    }
+
 /*
    Navigation lists
    ========================================================================== */
