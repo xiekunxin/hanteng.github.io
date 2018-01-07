@@ -10,8 +10,7 @@ image:
   feature: Portfolio.svg
   teaser:
 ---
-
-<iframe src="https://public.tableau.com/views/5_393/1_2?:embed=y&:display_count=yes/sheet4?:embed=y&:display_count=yes&publish=yes/Dashboard1?:showVizHome=no&:embed=truehttps://public.tableau.com/shared/DJPSG6CX9?:display_count=yes" width="850px" height="900px" frameborder="0"></iframe>
+<img src="https://xiekunxin.github.io/images/jie.png" alt="teaser" itemprop="image">
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
