@@ -15,15 +15,7 @@ image:
 
 
 <div class="tiles">
-<div class="tiles">
-{% for post in site.posts %}
-{{% post.title %}}
-	{% if post.tag contains 'rwd' %}
-	{{% post.title %}}
-		{% for title in post.title %} 
-						{% include post-grid.html %}
-						
-		{% endfor %}
-	{% endif %}
+{% for post in site.categories.portfolio %}
+  {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 portfolio 的列出來-->
