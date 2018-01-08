@@ -12,11 +12,10 @@ image:
 ---
 - <a href="https://public.tableau.com/views/5_393/2_2?:embed=y&:display_count=yes&publish=yes" target="_blank">![conferm.png](https://i.loli.net/2018/01/08/5a52fe08133b7.png)</a>
 
-
+其他作品
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
 {% endfor %}
-<<<<<<< HEAD
 </div><!-- /.tiles 把所有categories 有 infovis 的列出來-->
 
