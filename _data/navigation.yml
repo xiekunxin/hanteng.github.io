@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: 网页设计作品集
+- title: 我的学习历程
   url: /portfolio/
   excerpt: "设计师是一个充满魅力的职业，因为它充满了设计者的思想灵感甚至灵魂，那是一种不受任何限制的纯粹"
   image: night.gif
@@ -10,7 +10,7 @@
   excerpt: "在这个十年的后期，计算机就会作为可视化虚拟现实。因此，浏览一个网站将意味着进入一个虚拟现实环境。"
   image: html.jpg
 
-- title: 我的学习历程
+- title: 网页设计作品集
   url: /posts/
   excerpt: "打开新世界的大门，变成一个更好的自己"
   image: float.jpg
