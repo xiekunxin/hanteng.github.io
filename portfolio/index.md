@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "网页设计作品"
+title: "网页设计作品集"
 date: 2017-12-30T11:40:45-04:00
 categories.portfolio
 modified:
@@ -11,19 +11,9 @@ image:
   teaser: night.jpg
 ---
 
-  
-
-
 <div class="tiles">
-<div class="tiles">
-{% for post in site.posts %}
-{{% post.title %}}
-	{% if post.tag contains 'rwd' %}
-	{{% post.title %}}
-		{% for title in post.title %} 
-						{% include post-grid.html %}
-						
-		{% endfor %}
-	{% endif %}
+{% for post in site.categories.portfolio %}
+  {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles 把所有categories 有 portfolio 的列出來-->
+</div><!-- /.tiles 把所有categories 有 portfolio 的列出來-->  
+
