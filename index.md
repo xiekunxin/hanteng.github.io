@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "学海无涯"
+title: "回炉重造"
 ---
 
 <div class="tiles">

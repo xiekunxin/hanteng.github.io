@@ -27,8 +27,8 @@
   top: $gutter;
   right: $gutter;
   display: block;
-  width: $button-size * 2;
-  height: $button-size * 2;
+  width: $button-size * 1;
+  height: $button-size * 1;
   background: $primary-color;
   outline: 0;
   padding: 0;
@@ -37,7 +37,7 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: $lemon;
+    background: $black;
   }
   transition: $sliding-menu-animation;
   &.slide {
